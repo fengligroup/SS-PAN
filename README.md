@@ -39,16 +39,15 @@ The repo is organised as follows:
 - Install requirement
   
   ```
-  cd SS-PAN
   pip install -r requirement.txt
   ```
 
 # Usage
-- Data collection
+- Data collection:
   Collect and organize the data following the format of 'dataset_example.xlsx'.
 
-- Feature selection
+- Feature selection:
   Use 'MeanDecreaseImpurity.py' and 'ExhaustiveSearch.py' in sequence for feature selection.
 
-- Model construction and predict
+- Model construction and predict:
   Use 'Stacking.py' to train  model, then use 'Predict'.py to output the final prediction on latent space.
