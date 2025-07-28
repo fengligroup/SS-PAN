@@ -6,17 +6,17 @@ SS-PAN is a stacking learning framework to predict η for AN-based ceramics. In 
 Email: [fengli@ahu.edu.cn](mailto:fengli@ahu.edu.cn)
 
 The repo is organised as follows:
-- 'requirements.txt': environment file with all dependencies needed to run the project
+- `requirements.txt`: environment file with all dependencies needed to run the project
 
-- 'MeanDecreaseImpurity.py': Python script of the MDI method for feature selection.
+- `MeanDecreaseImpurity.py`: Python script of the MDI method for feature selection.
 
-- 'ExhaustiveSearch.py': Python script of the exhaustive search method for feature selection.
+- `ExhaustiveSearch.py`: Python script of the exhaustive search method for feature selection.
 
-- 'Stacking.py': Python script for stacking model construction and evaluation.
+- `Stacking.py`: Python script for stacking model construction and evaluation.
   
-- 'Predict.py':  Python script for predicting on latent space.
+- `Predict.py`:  Python script for predicting on latent space.
 
-- '/data':
+- `/data`:
   - 'dataset_example.xlsx':  Training dataset example for SS-PAN;
   - 'latentSpace.xlsx':   LatentSpace to predict;   
 
@@ -44,10 +44,10 @@ The repo is organised as follows:
 
 # Usage
 - Data collection:
-  Collect and organize the data following the format of 'dataset_example.xlsx'.
+  Collect and organize the data following the format of `dataset_example.xlsx`.
 
 - Feature selection:
-  Use 'MeanDecreaseImpurity.py' and 'ExhaustiveSearch.py' in sequence for feature selection.
+  Use `MeanDecreaseImpurity.py` and `ExhaustiveSearch.py` in sequence for feature selection.
 
 - Model construction and predict:
-  Use 'Stacking.py' to train  model, then use 'Predict'.py to output the final prediction on latent space.
+  Use `Stacking.py` to train  model, then use `Predict.py` to output the final prediction on latent space.
