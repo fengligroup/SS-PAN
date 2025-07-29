@@ -17,8 +17,8 @@ The repo is organised as follows:
 - `Predict.py`:  Python script for predicting on latent space.
 
 - `/data`:
-  - 'dataset_example.xlsx':  Training dataset example for SS-PAN;
-  - 'latentSpace.xlsx':   LatentSpace to predict;   
+  - `dataset_example.xlsx`:  Training dataset example for SS-PAN;
+  - `latentSpace.xlsx`:   LatentSpace to predict;   
 
 
 # Installation
