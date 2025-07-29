@@ -25,6 +25,7 @@ def dfs(feature_number,dep,vis=-1,feature_subset=[]):
 
 
 t=pd.read_excel("data/dataset.xlsx", sheet_name="import2Python")
+#replace the col name list with yours
 col_name_list=["原子序数之比",'电子亲和力','容许因子','相对分子质量之比','B位电子亲和力(KJ/mol)','电负性','B位价电子距离(Å)',
                'A位第一电离能(KJ/mol)','赝势核半径(a.u.)','A位相对分子质量']
 x=t.loc[:,col_name_list]

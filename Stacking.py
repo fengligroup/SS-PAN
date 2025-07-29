@@ -43,6 +43,7 @@ XGB = xgb.XGBRegressor(max_depth=3, learning_rate=0.03, n_estimators=110, gamma=
 ADB = AdaBoostRegressor(n_estimators=130)
 model_list = [KNN, MLP, SVM, RF, XGB, ADB]
 model_name_list = ['KNN','MLP', 'SVM', 'RF', 'XGB', 'ADB']
+#replace the feature list with yours
 feature_list=[['电子亲和力', '容许因子', 'B位电子亲和力(KJ/mol)', 'B位价电子距离(Å)'],
               ['电子亲和力', '容许因子', 'B位电子亲和力(KJ/mol)', 'A位第一电离能(KJ/mol)'],
               ['容许因子', '相对分子质量之比', 'B位价电子距离(Å)'],
