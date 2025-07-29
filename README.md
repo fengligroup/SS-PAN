@@ -34,7 +34,7 @@ The repo is organised as follows:
 - Download
   
   ```bash
-  git clone https://github.com//fengligroup//SS-PAN 
+  git clone https://github.com/fengligroup/SS-PAN 
   ```
 - Install requirement
   
